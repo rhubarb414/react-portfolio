@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   return (
     <div id='flex-parent'>
       <Header handlePageChange={handlePageChange} />
-      <main>{renderPage()}</main>
+      <main className='color-secondary'>{renderPage()}</main>
       <Footer />
     </div>
   );

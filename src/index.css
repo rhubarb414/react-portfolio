@@ -45,6 +45,9 @@ code {
 }
 
 .color-primary {
-  background-color: #151E3F
+  background-color: #151E3F;
+}
 
+.color-secondary {
+  background-color: #F2F3D9;
 }
