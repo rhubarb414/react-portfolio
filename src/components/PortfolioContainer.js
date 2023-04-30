@@ -26,9 +26,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div id='flex-parent'>
       <Header handlePageChange={handlePageChange} />
-      {renderPage()}
+      <main>{renderPage()}</main>
       <Footer />
     </div>
   );
