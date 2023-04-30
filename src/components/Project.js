@@ -1,11 +1,11 @@
-const Project = (props) => {
+const Project = ({ title, image, url }) => {
   return (
     <div className='row'>
       <div className='col s12 m7'>
         <div className='card'>
           <div className='card-image'>
-            <a href='https://yardsale-application.herokuapp.com/'>
-              <img src='https://github.com/rhubarb414/portfolio/blob/main/assets/images/yardsale.png?raw=true'></img>
+            <a href={url}>
+              <img src={image}></img>
             </a>
           </div>
           {/* <div className='card-content'>
@@ -16,9 +16,7 @@ const Project = (props) => {
             </p>
           </div> */}
           <div className='card-action'>
-            <a href='https://yardsale-application.herokuapp.com/'>
-              Yardsale – C2C Sales (SQL DB){' '}
-            </a>
+            <a href={url}>{title}</a>
           </div>
         </div>
       </div>
