@@ -5,7 +5,7 @@ export default function Header({ handlePageChange }) {
     <div className='App'>
       {/* Can probably delete className='App' */}
 
-      <nav className='nav-extended'>
+      <nav className='nav-extended color-primary '>
         <div className='container'>
           <div className='nav-wrapper'>
             <a href='#' className='brand-logo left'>
