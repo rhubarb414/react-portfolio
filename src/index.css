@@ -21,3 +21,25 @@ code {
  main {
      flex: 1 0 auto;
  }
+
+ .container {
+  width: 85%;
+ }
+
+ @media only screen and (max-width: 2000px) {
+  .tabs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tabs .tab {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .tabs .tab a {
+    padding: 0 12px;
+  }
+}
