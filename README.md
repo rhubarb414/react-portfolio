@@ -13,7 +13,7 @@ THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, an
 xxx WHEN I click on a navigation title
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-WHEN I load the portfolio the first time
+xxx WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
 
 WHEN I am presented with the About Me section

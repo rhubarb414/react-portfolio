@@ -4,6 +4,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
 import Header from './Header';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
   // Defaulting to 'Work' as home page? What does the parameter mean? delete
@@ -28,6 +29,7 @@ export default function PortfolioContainer() {
     <div>
       <Header handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
