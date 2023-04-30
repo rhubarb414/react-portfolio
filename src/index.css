@@ -53,3 +53,8 @@ code {
 .color-secondary {
   background-color: #E7ECEF ;
 }
+
+
+.card:hover {
+  box-shadow: 5px 5px 10px #9CEC5B;
+}
