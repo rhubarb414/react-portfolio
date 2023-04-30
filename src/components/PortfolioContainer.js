@@ -3,6 +3,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
+import Header from './Header';
 
 export default function PortfolioContainer() {
   // Defaulting to 'Work' as home page? What does the parameter mean? delete
@@ -23,5 +24,10 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  return <div>{renderPage()}</div>;
+  return (
+    <div>
+      <Header handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
 }

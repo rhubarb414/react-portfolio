@@ -1,6 +1,6 @@
-import Nav from './Navigation.js';
+import Navigation from './Navigation.js';
 
-export default function Header() {
+export default function Header({ handlePageChange }) {
   return (
     <div className='App'>
       {/* Can probably delete className='App' */}
@@ -11,7 +11,7 @@ export default function Header() {
           </a>
         </div>
         <div className='nav-content'>
-          <Nav />
+          <Navigation handlePageChange={handlePageChange} />
         </div>
       </nav>
     </div>
