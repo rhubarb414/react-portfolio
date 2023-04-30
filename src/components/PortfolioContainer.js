@@ -7,7 +7,7 @@ import Header from './Header';
 
 export default function PortfolioContainer() {
   // Defaulting to 'Work' as home page? What does the parameter mean? delete
-  const [currentPage, setCurrentPage] = useState('Work');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // Return corresponding page component depending on value of currentPage
   const renderPage = () => {
