@@ -1,14 +1,17 @@
 export default function Nav() {
   return (
-    <ul id='nav-mobile' className='left  hide-on-med-and-down'>
-      <li>
-        <a href='sass.html'>Sass</a>
+    <ul id='nav-mobile' className='tabs tabs-transparent'>
+      <li className='tab'>
+        <a href='#'>About</a>
       </li>
-      <li>
-        <a href='badges.html'>Components</a>
+      <li className='tab'>
+        <a href='#'>Work</a>
       </li>
-      <li>
-        <a href='collapsible.html'>JavaScript</a>
+      <li className='tab'>
+        <a href='#'>Contact</a>
+      </li>
+      <li className='tab'>
+        <a href='#'>Resume</a>
       </li>
     </ul>
   );
