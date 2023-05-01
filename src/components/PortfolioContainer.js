@@ -15,7 +15,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Work') {
       return <Work />;
     } else if (currentPage === 'About') {
-      return <About />;
+      return <About avatar='./assets/avatar.jpeg' />;
     } else if (currentPage === 'Resume') {
       return <Resume />;
     } else {

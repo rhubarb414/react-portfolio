@@ -58,3 +58,7 @@ code {
 .card:hover {
   box-shadow: 5px 5px 10px #9CEC5B;
 }
+
+.avatar {
+  max-width: 30%;
+}
