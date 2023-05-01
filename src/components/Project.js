@@ -16,7 +16,9 @@ const Project = ({ title, image, url }) => {
             </p>
           </div> */}
           <div className='card-action'>
-            <a href={url}>{title}</a>
+            <a href={url} target='_blank'>
+              {title}
+            </a>
           </div>
         </div>
       </div>
