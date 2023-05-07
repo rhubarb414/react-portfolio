@@ -83,6 +83,13 @@ export default function Contact() {
               ></textarea>
             </div>
           </div>
+          <button
+            class='btn waves-effect waves-teal'
+            type='submit'
+            name='action'
+          >
+            Submit
+          </button>
         </form>
       </div>
     </div>
