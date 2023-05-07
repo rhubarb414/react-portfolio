@@ -7,7 +7,7 @@ A developer portfolio made using React and Materialize. It showcases past projec
 ## Usage
 
 Visit the deployed GitHub page here:
-[link](link url)
+[https://rhubarb414.github.io/react-portfolio](https://rhubarb414.github.io/react-portfolio)
 
 Here is a gif of the deployed site:
 ![Clicking through About, Work, Contact, and Resume sections of the portfolio site](./demo.gif)
