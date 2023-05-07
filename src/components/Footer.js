@@ -1,14 +1,14 @@
 const Footer = () => {
   return (
-    <footer class='page-footer color-primary'>
-      <div class='container'>
-        <div class='row  '>
+    <footer className='page-footer color-primary'>
+      <div className='container'>
+        <div className='row  '>
           {/* <div class='col l4  s12'> */}
-          <h5 class='white-text'>Links</h5>
+          <h5 className='white-text'>Links</h5>
           <ul>
             <li>
               <a
-                class='grey-text text-lighten-3'
+                className='grey-text text-lighten-3'
                 target='_blank'
                 href='https://www.linkedin.com/in/christopher-dubois-0a55aa10b/'
               >
@@ -17,7 +17,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                class='grey-text text-lighten-3'
+                className='grey-text text-lighten-3'
                 target='_blank'
                 href='https://github.com/rhubarb414'
               >
@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                class='grey-text text-lighten-3'
+                className='grey-text text-lighten-3'
                 target='_blank'
                 href='https://stackoverflow.com/users/20661917/rhubarb414'
               >
@@ -37,8 +37,8 @@ const Footer = () => {
           {/* </div> */}
         </div>
       </div>
-      <div class='footer-copyright'>
-        <div class='container'>© 2023 MIT License</div>
+      <div className='footer-copyright'>
+        <div className='container'>© 2023 MIT License</div>
       </div>
     </footer>
   );
