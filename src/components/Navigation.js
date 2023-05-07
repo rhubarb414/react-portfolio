@@ -2,7 +2,7 @@ export default function Navigation({ handlePageChange }) {
   return (
     <ul id='nav-mobile' className='tabs tabs-transparent'>
       <li className='tab'>
-        {/* handlePageChange() will be passed in as a prop in PortfolioContainer.js */}
+        {/* handlePageChange() is passed in as a prop in PortfolioContainer.js */}
         <a
           href='#about'
           className='left-align'
