@@ -5,6 +5,11 @@ export default function Work() {
     <div className='container'>
       <h1>Work</h1>
       <Project
+        title='MERN Arcade'
+        image='./assets/game-app.png'
+        url='https://whispering-beach-93510.herokuapp.com/'
+      />
+      <Project
         title='Yardsale – C2C E-Commerce'
         image='./assets/yardsale.jpg'
         url='https://yardsale-application.herokuapp.com/'
